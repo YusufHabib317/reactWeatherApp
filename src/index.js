@@ -9,7 +9,7 @@ import Root from "./pages/rootLayout/Root";
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/reactWeatherApp",
     element: <Root />,
     children: [{ index: true, element: <Index /> }],
   },
